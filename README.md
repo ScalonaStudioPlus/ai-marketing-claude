@@ -1,46 +1,42 @@
 <p align="center">
-  <img src="banner.svg" alt="AI Marketing Suite for Claude Code" width="100%">
+  <img src="banner.svg" alt="Suite de marketing con IA para Claude Code" width="100%">
 </p>
 
-# AI Marketing Suite for Claude Code
+# Suite de marketing con IA para Claude Code
 
-A comprehensive marketing analysis and automation skill system for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Audit any website's marketing, generate copy, build email sequences, create content calendars, analyze competitors, and produce client-ready PDF reports — all from your terminal.
+Un sistema integral de análisis de marketing y automatización de habilidades para [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Audita el marketing de cualquier sitio web, genera textos, crea secuencias de correo electrónico, elabora calendarios de contenido, analiza a la competencia y produce informes en PDF listos para el cliente, todo desde tu terminal.
 
-**Built for entrepreneurs, agency builders, and solopreneurs who want to sell marketing services powered by AI.**
-
+**Diseñado para emprendedores, creadores de agencias y profesionales independientes que desean vender servicios de marketing impulsados ​​por IA.**
 ---
+## ¿Qué hace esto?
 
-## What This Does
-
-Type a command in Claude Code and get instant, actionable marketing analysis:
-
+Escribe un comando en Claude Code y obtén análisis de marketing instantáneos y prácticos:
 ```
 > /market audit https://calendly.com
 
-Launching 5 parallel agents...
+Lanzamiento de 5 agentes en paralelo..
 ✓ Content & Messaging Analysis     — Score: 72/100
 ✓ Conversion Optimization          — Score: 58/100
 ✓ SEO & Discoverability            — Score: 81/100
 ✓ Competitive Positioning          — Score: 64/100
 ✓ Brand & Trust                    — Score: 76/100
 ✓ Growth & Strategy                — Score: 61/100
-
 Overall Marketing Score: 69/100
 
-Full report saved to MARKETING-AUDIT.md
+Informe completo guardado en MARKETING-AUDIT.md
 ```
 
 ---
 
-## Installation
+## Instalación
 
-### One-Command Install
+### Instalación con un solo comando
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-marketing-claude/main/install.sh | bash
 ```
 
-### Manual Install
+### Instalación manual
 
 ```bash
 git clone https://github.com/zubair-trabzada/ai-marketing-claude.git
@@ -131,7 +127,7 @@ ai-marketing-claude/
 
 ## Scoring Methodology
 
-The full marketing audit scores websites across 6 dimensions:
+La auditoría de marketing completa evalúa los sitios web en 6 dimensiones:
 
 | Category | Weight | What It Measures |
 |----------|--------|------------------|
@@ -142,11 +138,10 @@ The full marketing audit scores websites across 6 dimensions:
 | Brand & Trust | 10% | Design quality, trust signals, authority |
 | Growth & Strategy | 10% | Pricing, acquisition channels, retention |
 
-**Overall Marketing Score** = Weighted average of all categories (0-100)
+**Overall Marketing Score** = Promedio ponderado de todas las categorías (0-100)
 
 ---
-
-## How It Works
+## Cómo funciona
 
 1. **You type a command** — e.g., `/market audit https://example.com`
 2. **Claude reads the skill files** — they tell Claude exactly how to analyze the site
@@ -156,33 +151,30 @@ The full marketing audit scores websites across 6 dimensions:
 6. **Output is saved** — as a Markdown file or professional PDF
 
 ---
+## Casos de uso
 
-## Use Cases
-
-### For Agency Builders
+### Para constructores de agencias
 - Run `/market audit` on a prospect's website before a sales call
 - Generate `/market proposal` with specific findings and pricing
 - Deliver `/market report-pdf` as a professional client deliverable
 
-### For Solopreneurs
+### Para emprendedores individuales
 - Use `/market copy` to optimize your own landing pages
 - Generate `/market emails` for your product launches
 - Build `/market social` calendars for consistent posting
 
-### For Content Creators
+### Para creadores de contenido
 - Research competitors with `/market competitors`
 - Plan launches with `/market launch`
 - Analyze your funnel with `/market funnel`
 
 ---
-
-## Uninstall
-
+## Desinstalar
 ```bash
 ./uninstall.sh
 ```
 
-Or manually:
+O manualmente:
 ```bash
 rm -rf ~/.claude/skills/market*
 rm -f ~/.claude/agents/market-*.md
@@ -190,13 +182,6 @@ rm -f ~/.claude/agents/market-*.md
 
 ---
 
-## Learn More
-
-Want to learn how to build a marketing agency powered by AI tools like this?
-
-**[Join the AI Workshop Community](https://www.skool.com/aiworkshop)** — Learn AI automations, vibe coding, and how to build AI-powered services for clients.
-
----
 
 ## License
 
