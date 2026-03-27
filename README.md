@@ -56,17 +56,17 @@ pip install reportlab
 
 | Command | What It Does |
 |---------|-------------|
-| `/market audit <url>` | Full marketing audit with 5 parallel agents |
-| `/market quick <url>` | 60-second marketing snapshot |
-| `/market copy <url>` | Generate optimized copy with before/after examples |
-| `/market emails <topic>` | Generate complete email sequences |
-| `/market social <topic>` | 30-day social media content calendar |
-| `/market ads <url>` | Ad creative and copy for all platforms |
-| `/market funnel <url>` | Sales funnel analysis and optimization |
-| `/market competitors <url>` | Competitive intelligence report |
+| `/market audit <url>` | Auditoría de marketing completa con 5 agentes paralelos |
+| `/market quick <url>` | Instantánea de marketing de 60 segundos |
+| `/market copy <url>` | Genera un texto optimizado con ejemplos de antes y después. |
+| `/market emails <topic>` | Generar secuencias de correo electrónico completas |
+| `/market social <topic>` | Calendario de contenido para redes sociales de 30 días |
+| `/market ads <url>` | Creatividad y textos publicitarios para todas las plataformas. |
+| `/market funnel <url>` | Análisis y optimización del embudo de ventas |
+| `/market competitors <url>` | Informe de inteligencia competitiva |
 | `/market landing <url>` | Landing page CRO analysis |
-| `/market launch <product>` | Product launch playbook |
-| `/market proposal <client>` | Client proposal generator |
+| `/market launch <product>` | Manual de lanzamiento de productos|
+| `/market proposal <client>` | Generadora de propuestas de clientes |
 | `/market report <url>` | Full marketing report (Markdown) |
 | `/market report-pdf <url>` | Professional marketing report (PDF) |
 | `/market seo <url>` | SEO content audit |
@@ -154,19 +154,19 @@ La auditoría de marketing completa evalúa los sitios web en 6 dimensiones:
 ## Casos de uso
 
 ### Para constructores de agencias
-- Run `/market audit` on a prospect's website before a sales call
-- Generate `/market proposal` with specific findings and pricing
-- Deliver `/market report-pdf` as a professional client deliverable
+- Run `/market audit` en el sitio web de un cliente potencial antes de una llamada de ventas
+- Generate `/market proposal`con hallazgos y precios específicos
+- Deliver `/market report-pdf` como entregable profesional al cliente
 
 ### Para emprendedores individuales
-- Use `/market copy` to optimize your own landing pages
-- Generate `/market emails` for your product launches
-- Build `/market social` calendars for consistent posting
-
+- Use `/market copy` para optimizar tus propias páginas de destino
+- Generate `/market emails` para el lanzamiento de sus productos
+- Build `/market social` calendarios para publicar de forma consistente
+- 
 ### Para creadores de contenido
-- Research competitors with `/market competitors`
-- Plan launches with `/market launch`
-- Analyze your funnel with `/market funnel`
+- Investigadores competidoras con `/market competitors`
+- El plan se lanza con `/market launch`
+- Analiza tu embudo con `/market funnel`
 
 ---
 ## Desinstalar
